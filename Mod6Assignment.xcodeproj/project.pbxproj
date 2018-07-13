@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		7DE3D5F020F8227E004938BC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE3D5EF20F8227E004938BC /* main.m */; };
+		7DE3D5F820F822D2004938BC /* Person.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE3D5F720F822D2004938BC /* Person.m */; };
+		7DE3D5FB20F823EC004938BC /* Dog.m in Sources */ = {isa = PBXBuildFile; fileRef = 7DE3D5FA20F823EC004938BC /* Dog.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,10 @@
 /* Begin PBXFileReference section */
 		7DE3D5EC20F8227E004938BC /* Mod6Assignment */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Mod6Assignment; sourceTree = BUILT_PRODUCTS_DIR; };
 		7DE3D5EF20F8227E004938BC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		7DE3D5F620F822D2004938BC /* Person.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Person.h; sourceTree = "<group>"; };
+		7DE3D5F720F822D2004938BC /* Person.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Person.m; sourceTree = "<group>"; };
+		7DE3D5F920F823EC004938BC /* Dog.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Dog.h; sourceTree = "<group>"; };
+		7DE3D5FA20F823EC004938BC /* Dog.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Dog.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -41,6 +47,10 @@
 		7DE3D5E320F8227E004938BC = {
 			isa = PBXGroup;
 			children = (
+				7DE3D5F620F822D2004938BC /* Person.h */,
+				7DE3D5F920F823EC004938BC /* Dog.h */,
+				7DE3D5FA20F823EC004938BC /* Dog.m */,
+				7DE3D5F720F822D2004938BC /* Person.m */,
 				7DE3D5EE20F8227E004938BC /* Mod6Assignment */,
 				7DE3D5ED20F8227E004938BC /* Products */,
 			);
@@ -118,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7DE3D5FB20F823EC004938BC /* Dog.m in Sources */,
+				7DE3D5F820F822D2004938BC /* Person.m in Sources */,
 				7DE3D5F020F8227E004938BC /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
