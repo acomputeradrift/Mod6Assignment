@@ -14,14 +14,16 @@ int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
         //Init
-        Person *myName = [[Person alloc]init];
-        Dog *petName = [[Dog alloc]init];
+        Person *person = [[Person alloc]init];
+        Dog *dog = [[Dog alloc]init];
         
         //Set
-        [myName setName:@"Jamie"];
-        [petName setName:@"Zorro"];
+        person.pet = dog;
+        person.name = @"Jamie";
+        dog.name = @"Zorro";
     
-     NSLog (@"%@", [petName speak]);
+     NSLog (@"%@ says %@", dog.name, dog.speak);
+        NSLog (@"%@'s dog is %@", person.name, person.pet.name);
         
         
         

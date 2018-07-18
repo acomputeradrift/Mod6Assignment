@@ -12,5 +12,6 @@
 
 @interface Person : NSObject
 @property NSString *name;
+@property Dog *pet;
 
 @end
