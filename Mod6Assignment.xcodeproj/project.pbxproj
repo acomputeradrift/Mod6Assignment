@@ -48,9 +48,9 @@
 			isa = PBXGroup;
 			children = (
 				7DE3D5F620F822D2004938BC /* Person.h */,
+				7DE3D5F720F822D2004938BC /* Person.m */,
 				7DE3D5F920F823EC004938BC /* Dog.h */,
 				7DE3D5FA20F823EC004938BC /* Dog.m */,
-				7DE3D5F720F822D2004938BC /* Person.m */,
 				7DE3D5EE20F8227E004938BC /* Mod6Assignment */,
 				7DE3D5ED20F8227E004938BC /* Products */,
 			);
