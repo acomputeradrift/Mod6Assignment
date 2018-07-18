@@ -13,5 +13,9 @@
 @interface Person : NSObject
 @property NSString *name;
 @property Dog *pet;
+@property (readonly) NSDate *dateOfBirth;
+
+// The designated initializer
+- (instancetype)initWithtNameAndPet:(Dog*)pet;
 
 @end

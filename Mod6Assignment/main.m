@@ -14,16 +14,17 @@ int main(int argc, const char * argv[]) {
     @autoreleasepool {
         
         //Init
-        Person *person = [[Person alloc]init];
-        Dog *dog = [[Dog alloc]init];
+        Dog *dog = [[Dog alloc]init]; //init the instance of Dog object called dog
+        Person *person = [[Person alloc]initWithtNameAndPet:dog]; //pass the dog object to the custom Person init
+       
         
         //Set
-        person.pet = dog;
-        person.name = @"Jamie";
+        //person.pet = dog;
+        //person.name = @"Jamie";
         dog.name = @"Zorro";
     
      NSLog (@"%@ says %@", dog.name, dog.speak);
-        NSLog (@"%@'s dog is %@", person.name, person.pet.name);
+        NSLog (@"%@(who's birthdate is %@) has a dog named %@ who says %@", person.name, person.dateOfBirth, person.pet.name, dog.speak);
         
         
         
